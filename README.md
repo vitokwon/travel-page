@@ -3,8 +3,14 @@
 Practice about CSS & HTML deeply
 
 ## 3) Footer
-
-
+* HTML tags
+ - `<ul>`, `<li>`, `<img>`, `<a>`
+  : input the images, Hiperlink in footer
+ 
+* CSS Propertise
+ -  `display: flex;`, `justify-content: center;`
+    `width`, `height`
+    : orginized the icons, re-size.
 
 ## 2) 2nd section of main (Highlight section)
 What's Learn?
