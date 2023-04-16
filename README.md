@@ -2,12 +2,27 @@
 
 Practice about CSS & HTML deeply
 
+## 2) Main (Card look)
+* HTML tags
+  - `<ul>`, `<li>` : making the form for card look
+      `<img>`,`<div class="item-content"> for Desc.`, 
+      `<div class="actions"> for <a>` 
+      : for 1 card.
+
+* CSS properties
+
+
+## 1) Header & Footer
+* Copied from index.html and revised samll things.
+---------------------------Another Page(places.html) starts-------------------------------
+
+---------------------------lending pages Ends-------------------------------
 ## 3) Footer
 * HTML tags
  - `<ul>`, `<li>`, `<img>`, `<a>`
   : input the images, Hiperlink in footer
  
-* CSS Propertise
+* CSS Properties
  -  `display: flex;`, `justify-content: center;`
     `width`, `height`
     : orginized the icons, re-size.
