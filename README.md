@@ -4,12 +4,27 @@ Practice about CSS & HTML deeply
 
 ## 2) Main (Card look)
 * HTML tags
-  - `<ul>`, `<li>` : making the form for card look
-      `<img>`,`<div class="item-content"> for Desc.`, 
-      `<div class="actions"> for <a>` 
-      : for 1 card.
-
+  - `<ul>`, `<li>` : creating the card layout
+    `<img>`,`<div class="item-content">` : for Description 
+    `<div class="actions">` : for links
+      
 * CSS properties
+  - `Header {position:static}` : to separated from main
+  - `.item-content {display: flex; flex-direction: column; justify-content: space-between;}`
+    : content organized as top to bottom
+  - `.actions {text-align: right;}`
+  - `.actions a {text-decoration: none; padding: 6px; border-radius: 5px;}`
+  - `.actions a:hover {}`
+    : Decorating the `<a>` tag.
+
+* CSS Grid properties
+ - `display: grid;`
+ - `grid-template-columns: 1fr 1fr;` : row, column
+ - `gap: px;` : gap between grid
+
+* CSS Grid Selectors
+ - `li:first-of-type {}` : Select first Grid
+ - `li:nth-of-type(3) {}` : Select Grid.No
 
 
 ## 1) Header & Footer
@@ -20,19 +35,20 @@ Practice about CSS & HTML deeply
 ## 3) Footer
 * HTML tags
  - `<ul>`, `<li>`, `<img>`, `<a>`
-  : input the images, Hiperlink in footer
+  : input the images, Hyperlinks in footer
  
 * CSS Properties
  -  `display: flex;`, `justify-content: center;`
     `width`, `height`
-    : orginized the icons, re-size.
+    : organized the icons, re-size.
 
 ## 2) 2nd section of main (Highlight section)
 What's Learn?
 
 * HTML tags
-  - `<strong></strong>`: font-weight: bold;
-  - `<ul id="destinations">`, `<li class="destination">`, `<img src="/" alt="img">`: 3 images on Unordered list
+  - `<strong></strong>`: font-weight: Bold;
+  - `<ul id="destinations">`, `<li class="destination">`, `<img src="/" alt="img">`
+    : 3 images in an unordered list
 
 * CSS Selector
   - `#destinations`: ID Selector (single)
@@ -40,7 +56,7 @@ What's Learn?
 
 * CSS properties
   - `display: flex;`: Organized 3 images in row (default)
-  - `box-shadow`, `border-radius` : Immprove appearance
+  - `box-shadow`, `border-radius` : Improve appearance
 
 * CSS functions
   - gradient 
@@ -51,7 +67,7 @@ What's Learn?
 
 * Flexbox properties related
   - `width: 100%;` : Flex container's width adjusts dynamically
-  -`justify-content: center;` : center position of contents in flexbox 
+  - `justify-content: center;` : centered content position in flexbox 
 
 * Image Styling
   - `object-fit: fill;` (default)
@@ -68,7 +84,7 @@ What's Learn?
   - `color: rgb(59, 65, 64);` : font color
 
 * Margin Collapsing
-  - `parents without margin(section)` + `child with margin(ul)`
+  - `section without margin on parents` + `ul with margin on child`
     : Applied child margin over the parents margin.
     : fix to add the margin to the parents.
 
@@ -81,9 +97,9 @@ What's Learn?
   - `flex-direction`: row, column;
   - `flex-wrap`: nowrap, wrap;
   - `flex-flow`: flex-direction flex-wrap;
-  - `align-item`, `justify-content`
+  - `align-items`, `justify-content`
 
-* Position & Layout
+* Positioning and layout
   - `position`: relative, absolute, fixed
   - `top`, `right`, `bottom`, `left`: px; (4 directions)
 
